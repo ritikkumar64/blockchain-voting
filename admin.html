@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - E-Voting System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Admin Panel</h2>
+        <h3>Add Candidate</h3>
+        <input type="text" id="candidateName" placeholder="Candidate Name" class="input-field">
+        <input type="text" id="partyName" placeholder="Party Name" class="input-field">
+        <input type="file" id="candidateImage" class="input-field">
+        <button onclick="addCandidate()" class="btn">Add Candidate</button>
+
+        <div class="candidate-list" id="candidateList">
+            <h3>Candidate List</h3>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
